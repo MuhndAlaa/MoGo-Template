@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+
+<head id="head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <title>MoGo</title>
+</head>
+
+<body id="body" class="w-100">
+
+
+    <!-- start of header  -->
+    <header class="d-flex flex-column justify-content-center position-relative">
+
+        <!-- start of navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 w-100">
+            <div class="container justify-content-between">
+              <a class="navbar-brand" href="#">
+                  <img src="imgs/MoGo.png" alt="MoGo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#">ABOUT</a>
+                  <a class="nav-link" href="#">SERVICE</a>
+                  <a class="nav-link" href="#">WORK</a>
+                  <a class="nav-link" href="#">BLOG</a>
+                  <a class="nav-link" href="#">CONTACT</a>
+                  <a id="lang" class="nav-link" >AR</a>
+
+                </div>
+              </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators test">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="header d-flex flex-column align-items-center">
+                        <h2>Creative Template</h2>
+                        <img src="imgs/Welcome to MoGo.png" class="header__img" alt="Welcome to MoGo">
+                        <button class="btn btn-outline-light fw-bold border-2 px-5">Learn More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="header d-flex flex-column align-items-center">
+                        <h2>Creative Template</h2>
+                        <img src="imgs/Welcome to MoGo.png" class="header__img" alt="Welcome to MoGo">
+                        <button class="btn btn-outline-light fw-bold border-2 px-5">Learn More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="header d-flex flex-column align-items-center">
+                        <h2>Creative Template</h2>
+                        <img src="imgs/Welcome to MoGo.png" class="header__img" alt="Welcome to MoGo">
+                        <button class="btn btn-outline-light fw-bold border-2 px-5">Learn More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="header d-flex flex-column align-items-center">
+                        <h2>Creative Template</h2>
+                        <img src="imgs/Welcome to MoGo.png" class="header__img" alt="Welcome to MoGo">
+                        <button class="btn btn-outline-light fw-bold border-2 px-5">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+    </header>
+    <!-- end of header  -->
+
+
+    <!-- start of section about  -->
+    <section class="about container">
+        <div class="section-title">
+            <h4>What we do</h4>
+            <h3>STORY ABOUT US</h3>
+        </div>
+        <p class="text-muted w-75 mx-auto text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <div class="row about__cards-warpper justify-content-center">
+            <div class="col-md-4  col-sm-12 about__card">
+                <div class="about__img-wrapper">
+                    <img src="imgs/about1.png" class="w-100" alt="about_1">
+                    <div class="img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                        <i class="fas fa-user-friends fs-2 mb-2"></i>
+                        <h6 class="fs-3">SUPER TEAM</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 about__card">
+                <div class="about__img-wrapper">
+                    <img src="imgs/about4 - Copy.png" class="w-100" alt="about_2">
+                    <div class="img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                        <i class="fas fa-user-friends fs-2 mb-2"></i>
+                        <h6 class="fs-3">SUPER TEAM</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 about__card">
+                <div class="about__img-wrapper">
+                    <img src="imgs/about3.png" class="w-100" alt="about_3">
+                    <div class="img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                        <i class="fas fa-user-friends fs-2 mb-2"></i>
+                        <h6 class="fs-3">SUPER TEAM</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of section about  -->
+
+
+    <!-- start of section counter -->
+    <section class="counter">
+        <div class="container counter__item-wrapper">
+            <div class="row">
+                <div class="col-lg col-md-12 counter__item">
+                    <h4>42</h4>
+                    <p>WEB DESIGN PRODUCTS</p>
+                </div>
+                <div class="col-lg col-md-12 counter__item">
+                    <h4>123</h4>
+                    <p>HAPPY CLIENT</p>
+                </div>
+                <div class="col-lg col-md-12 counter__item">
+                    <h4>15</h4>
+                    <p>AWARD WINNER</p>
+                </div>
+                <div class="col-lg col-md-12 counter__item">
+                    <h4>99</h4>
+                    <p>CUP OF COFFE</p>
+                </div>
+                <div class="col-lg col-md-12 counter__item">
+                    <h4>24</h4>
+                    <p>MEMBERS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of section counter  -->
+
+    <!-- start of section services  -->
+    <section class="services">
+        <div class="section-title">
+            <h4>We work with</h4>
+            <h3>AMAZING SERVICES</h3>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 border-bottom ">
+                    <div class="content-wrapper services__item d-flex justify-content-center align-items-start">
+                        <i class="far fa-bell"></i>
+                        <div class="services__item-content">
+                            <h6>PHOTOGRAPHY</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 border-bottom ">
+                    <div class="content-wrapper services__item d-flex justify-content-center align-items-start">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="services__item-content">
+                            <h6>WEB DESIGN</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 border-bottom ">
+                    <div class="content-wrapper services__item d-flex justify-content-center align-items-start">
+                        <i class="fas fa-desktop"></i>
+                        <div class="services__item-content">
+                            <h6>CREATIVITY</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="content-wrapper services__item d-flex justify-content-center align-items-start">
+                        <i class="fas fa-book-open"></i>
+                        <div class="services__item-content">
+                            <h6>SEO</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="content-wrapper services__item d-flex justify-content-center align-items-start">
+                        <i class="fas fa-home"></i>
+                        <div class="services__item-content">
+                            <h6>CSS/HTML</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="content-wrapper services__item d-flex justify-content-center align-items-start">
+                        <i class="fas fa-crop-alt"></i>
+                        <div class="services__item-content">
+                            <h6>DIGITAL</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- start of section services  -->
+
+    <!-- start of section design  -->
+    <section class="design">
+        <div class="section-title">
+            <h4>For all devices</h4>
+            <h3>UNIQUE DESIGN</h3>
+        </div>
+       <figure>
+            <img src="imgs/display bg 768x1024.png" class="img-fluid" alt="tablet">
+       </figure>
+        <figure class="design__mobile">
+            <img src="imgs/White.png" class="img-fluid" alt="mobile">
+        </figure>
+    </section>
+    <!-- end of section design  -->
+
+    <!-- start of section design  -->
+    <section class="service container">
+        <div class="section-title">
+            <h4>What we do</h4>
+            <h3>STORY ABOUT US</h3>
+        </div>
+        <p class="text-muted w-75 mx-auto text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="row">
+            <div class="col-md-6 mb-5">
+                <img src="imgs/pic.png" class="img-fluid" alt="service">
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="fas fa-image"></i>
+                            PHOTOGRAPHY
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text-muted fst-italic">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                                ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                                qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fas fa-sliders-h"></i>
+                            CREATIVITY
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text-muted fst-italic">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                                ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                                qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fas fa-bullseye"></i>
+                            WEB DEISGN
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text-muted fst-italic">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                                ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                                qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of section design  -->
+
+
+    <!-- start of section slider-1  -->
+    <section class="slider-1">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <div class="slider-1__item mx-auto d-flex justify-content-between align-items-start">
+                            <img src="imgs/SPEECH 4.png" alt="message.png">
+                            <div>
+                                <p class="text-muted">
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                                </p>
+                                <h6><div class="line"></div> Jon Doe</h6>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="slider-1__item mx-auto d-flex justify-content-between align-items-start">
+                        <img src="imgs/SPEECH 4.png" alt="message.png">
+                        <div>
+                            <p class="text-muted">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                            </p>
+                            <h6><div class="line"></div> Jon Doe</h6>
+                        </div>
+                    </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="slider-1__item mx-auto d-flex justify-content-between align-items-start">
+                    <img src="imgs/SPEECH 4.png" alt="message.png">
+                    <div>
+                        <p class="text-muted">
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                        </p>
+                        <h6><div class="line"></div> Jon Doe</h6>
+                    </div>
+                </div>
+          </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <i class="fas fa-chevron-right fs-1 text-secondary"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <i class="fas fa-chevron-left fs-1 text-secondary"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <!-- end of section slider-1  -->
+
+
+    <!-- start of section team  -->
+    <section class="team container">
+        <div class="section-title">
+            <h4>Who we are</h4>
+            <h3>MEET OUR TEAM</h3>
+        </div>
+        <p class="text-muted w-75 mx-auto text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="row team__cards-warpper justify-content-center">
+            <div class="col-md-4 col-sm-12 team__card">
+                <div class="team__img-wrapper">
+                    <img src="imgs/team1.jpg" class="w-100" alt="team_1">
+                    <div class="img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                        <div class="team__icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-instagram-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 team__card">
+                <div class="team__img-wrapper">
+                    <img src="imgs/team2.jpg" class="w-100" alt="team_2">
+                    <div class="img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                        <div class="team__icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-instagram-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 team__card">
+                <div class="team__img-wrapper">
+                    <img src="imgs/team3.jpg" class="w-100" alt="team_3">
+                    <div class="img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                        <div class="team__icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-instagram-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- end of section team  -->
+
+    <!-- start of section brands  -->
+    <section class="brand">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-2 mb-5">
+                    <img src="imgs/logo1.png" alt="logo-1">
+                </div>
+                <div class="col-md-2 mb-5">
+                    <img src="imgs/logo2.png" alt="logo-2">
+                </div>
+                <div class="col-md-2 mb-5">
+                    <img src="imgs/logo3.png" alt="logo-3">
+                </div>
+                <div class="col-md-2 mb-5">
+                    <img src="imgs/logo4.png" alt="logo-4">
+                </div>
+                <div class="col-md-2 mb-5">
+                    <img src="imgs/logo5.png" alt="logo-5">
+                </div>
+                <div class="col-md-2 mb-5">
+                    <img src="imgs/logo6.png" alt="logo-6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of section brands  -->
+
+    <!-- start of section work  -->
+    <section class="work container-fluid px-0">
+        <div class="section-title">
+            <h4>What we do</h4>
+            <h3>SOME OF OUR WORK</h3>
+        </div>
+        <p class="text-muted mx-auto text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="row g-0">
+            <div class="col-md-6">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="imgs/work1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="imgs/work2.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="imgs/work5.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="imgs/work6.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="imgs/work3.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="imgs/work4.jpg" class="img-fluid" alt="">
+                <img src="imgs/work7.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end of section work  -->
+
+     <!-- start of section slider-2  -->
+     <section class="slider-2">
+        <div class="container">
+            <div id="carouselExampleControls-1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <div class="slider-2__item mx-auto d-flex justify-content-between align-items-start">
+                            <img src="imgs/testimonial.png" alt="">
+                            <div>
+                                <p class="text-muted">
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                                </p>
+                                <h6><div class="line"></div>Joshua Earle</h6>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="slider-2__item mx-auto d-flex justify-content-between align-items-start">
+                        <img src="imgs/testimonial.png" alt="">
+                        <div>
+                            <p class="text-muted">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                            </p>
+                            <h6><div class="line"></div>Joshua Earle</h6>
+                        </div>
+                    </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="slider-2__item mx-auto d-flex justify-content-between align-items-start">
+                    <img src="imgs/testimonial.png" alt="">
+                    <div>
+                        <p class="text-muted">
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                        </p>
+                        <h6><div class="line"></div>Joshua Earle</h6>
+                    </div>
+                </div>
+          </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-1" data-bs-slide="prev">
+                    <i class="fas fa-chevron-right fs-1 text-secondary"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-1" data-bs-slide="next">
+                  <i class="fas fa-chevron-left fs-1 text-secondary"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <!-- end of section slider-2  -->
+
+    <!-- start of section people  -->
+    <section class="people">
+        <div class="section-title">
+            <h4>Happy Clients</h4>
+            <h3>WHAT PEOPLE SAY</h3>
+        </div>
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-md-6 px-5">
+                    <div class="people__item d-flex justify-content-center align-item-start">
+                        <figure>
+                            <img src="imgs/client1.png"  alt="client-1">
+                        </figure>
+                        <div class="people__item-content">
+                            <h5>MATTHEW DIX</h5>
+                            <h6>Graphic Desgin</h6>
+                            <p class="text-muted">
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua. Ut enim ad minim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="people__item d-flex justify-content-center align-item-start">
+                        <figure>
+                            <img src="imgs/client2.png"  alt="client-2">
+                        </figure>                        
+                        <div class="people__item-content">
+                            <h5>NICK KRAVOUNIS</h5>
+                            <h6>Graphic Desgin</h6>
+                            <p class="text-muted">
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua. Ut enim ad minim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="people__item d-flex justify-content-center align-item-start">
+                        <figure>
+                            <img src="imgs/client3.png"  alt="client-3">
+                        </figure>                        
+                        <div class="people__item-content">
+                            <h5>JAELYNN CASTILLO</h5>
+                            <h6>Graphic Desgin</h6>
+                            <p class="text-muted">
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua. Ut enim ad minim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="people__item d-flex justify-content-center align-item-start">
+                        <figure>
+                            <img src="imgs/client4.png"  alt="client-4">
+                        </figure>                        
+                        <div class="people__item-content">
+                            <h5>MIKE PETRUCCI</h5>
+                            <h6>Graphic Desgin</h6>
+                            <p class="text-muted">
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua. Ut enim ad minim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of section people  -->
+
+
+    <!-- start of section blog -->
+    <section class="blog container">
+        <div class="section-title">
+            <h4>Our stories</h4>
+            <h3>LATEST BLOG</h3>
+        </div>
+        <div class="row blog__items-wrapper">
+            <div class="col-md-4 col-sm-12">
+                <div class="blog__item">
+                    <figure>
+                        <img src="imgs/blog1.jpg" class="img-fluid" alt="blog-1">
+                    </figure>
+                    <h5>Lorem ipsum dolor sit amet</h5>
+                    <p class="blog__item-content text-muted">
+                        Consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et 
+                        dolore magna aliqua.
+                    </p>
+                    <div class="blog__item-icons">
+                        <span class="text-muted"><i class="fas fa-eye"></i>542</span>
+                        <span class="text-muted"> <i class="fas fa-comment-dots"></i>17</span>
+                    </div>
+
+                    <div class="blog__item-badge">
+                        <h3>15</h3>
+                        <p>Jan</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="blog__item">
+                    <figure>
+                        <img src="imgs/blog2.jpg" class="img-fluid" alt="blog-2">
+                    </figure>
+                    <h5>sed do eiusmod tempor</h5>
+                    <p class="blog__item-content text-muted">
+                        Adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="blog__item-icons">
+                        <span class="text-muted"><i class="fas fa-eye"></i>542</span>
+                        <span class="text-muted"> <i class="fas fa-comment-dots"></i>17</span>
+                    </div>
+
+                    <div class="blog__item-badge">
+                        <h3>14</h3>
+                        <p>Jan</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="blog__item">
+                    <figure>
+                        <img src="imgs/blog3.jpg" class="img-fluid" alt="blog-3">
+                    </figure>
+                    <h5>incididunt ut labore et dolore</h5>
+                    <p class="blog__item-content text-muted">
+                        Elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua.
+                    </p>
+                    <div class="blog__item-icons">
+                        <span class="text-muted"><i class="fas fa-eye"></i>542</span>
+                        <span class="text-muted"> <i class="fas fa-comment-dots"></i>17</span>
+                    </div>
+
+                    <div class="blog__item-badge">
+                        <h3>12</h3>
+                        <p>Jan</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of section blog -->
+
+    <!-- start of section map  -->
+    <section class="map">
+        <h4><i class="far fa-bell"></i></h4>
+        <h3>OPEN MAP</h3>
+    </section>
+    <!-- end of section map  -->
+
+    <!-- start of footer  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between g-5">
+                <div class="col-md-4 footer__card-1">
+                    <h3>MoGo</h3>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing 
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi 
+                        ut aliquip ex ea commodo consequat.
+                    </p>
+                    <h5>15k followers</h5>
+                    <div class="footer__icons">
+                        <span class="text-muted">Follow Us:</span>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fas fa-basketball-ball"></i>
+                        <i class="fab fa-tumblr"></i>
+                    </div>
+                    <div class="form-group position-relative">
+                        <input class="form-control" type="text" placeholder="Your Email...">
+                        <button class="btn">SUBSCRIBE</button>
+                    </div>
+                </div>
+                <div class="col-md-4 footer__card-2">
+                    <h3>BLOGS</h3>
+                    <div class="footer__blogs-item d-flex justify-content-between align-items-center">
+                        <img src="imgs/fblog1.jpg" alt="fblog-1">
+                        <div class="footer__blogs-item-content">
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing</h5>
+                            <p class="text-muted">Jan 9, 2016</p>
+                        </div>
+                    </div>
+
+                    <div class="footer__blogs-item d-flex justify-content-between align-items-center">
+                        <img src="imgs/fblog2.jpg" alt="fblog-1">
+                        <div class="footer__blogs-item-content">
+                            <h5>Consectetur adipiscing elit, sed do eiusmod tempor</h5>
+                            <p class="text-muted">Jan 9, 2016</p>
+                        </div>
+                    </div>
+
+                    <div class="footer__blogs-item d-flex justify-content-between align-items-center">
+                        <img src="imgs/fblog3.jpg" alt="fblog-1">
+                        <div class="footer__blogs-item-content">
+                            <h5>sed do eiusmod tempor incididunt ut labore</h5>
+                            <p class="text-muted">Jan 9, 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer__card-3">
+                    <h3>INSTAGRAM</h3>
+                    <div class="d-flex w-100 flex-wrap align-items-center">
+                        <div >
+                            <img src="imgs/inst1.png" alt="insta-1">
+                        </div>
+                        <div >
+                            <img src="imgs/inst2.png" alt="insta-2">
+                        </div>
+                        <div >
+                            <img src="imgs/inst3.png" alt="insta-3">
+                        </div>
+                        <div >
+                            <img src="imgs/inst4.png" alt="insta-4">
+                        </div>
+                        <div >
+                            <img src="imgs/inst5.png" alt="insta-5">
+                        </div>
+                        <div >
+                            <img src="imgs/inst6.png" alt="insta-6">
+                        </div>
+                        <div >
+                            <img src="imgs/inst7.png" alt="insta-7">
+                        </div>
+                        <div >
+                            <img src="imgs/inst8.png" alt="insta-8">
+                        </div>
+                        <div >
+                            <img src="imgs/inst9.png" alt="insta-9">
+                        </div>
+                    </div>
+                    <p class="text-muted">View more photos</p>
+                </div>
+            </div>
+            <p class="copyright text-center"><i class="far fa-copyright"></i>2016 MoGo free PSD template by <span>Laaqiq</span></p>
+        </div>
+    </footer>
+    <!-- end of footer  -->
+
+
+
+
+
+
+
+</body>
+
+</html>
